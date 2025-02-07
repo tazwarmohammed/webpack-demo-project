@@ -1,0 +1,40 @@
+/* filepath: /C:/Users/Tazwar/Desktop/TOP projects and playground/webpack/webpack-project-TOP/src/style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #777;
+}
+
+nav button.active {
+  background-color: #777;
+  border-bottom: 2px solid #fff;
+}
+
+#content {
+  padding: 20px;
+}
+
+img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+}
